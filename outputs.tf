@@ -1,5 +1,3 @@
-# Notice we use 'module.bestrong_aks' instead of 'azurerm_resource_group'
-
 output "resource_group_name" {
   description = "The name of the created Resource Group"
   value       = module.bestrong_aks.resource_group_name
